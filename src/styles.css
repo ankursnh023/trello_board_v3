@@ -1,0 +1,89 @@
+/* App */
+
+.title {
+  text-align: center;
+}
+
+.btn-add-list {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 10px;
+}
+
+.list-items {
+  display: flex;
+  gap: 10px 10px;
+}
+
+.add-form-item {
+  display: flex;
+  gap: 5px 5px;
+}
+
+/* List */
+
+.list-container {
+  border: 1px solid;
+  width: 200px;
+}
+
+.list-header {
+  padding: 2px 4px;
+}
+
+.fr {
+  float: right;
+  cursor: pointer;
+}
+
+.list-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+
+.card-container {
+  border: 1px solid;
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  padding: 2px 4px;
+}
+
+.card-content {
+  text-align: left;
+  padding: 2px 4px;
+}
+
+.add-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.add-card-btn {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.card-form-container {
+  border: 1px dashed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  gap: 5px 5px;
+}
+
+.card-form-btn {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px 5px;
+}
