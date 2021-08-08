@@ -7,7 +7,7 @@ export const ListContext = React.createContext();
 
 export default function App() {
   const initialState =
-    localStorage.getItem("list_data") !== "null"
+    localStorage.getItem("list_data") != null
       ? JSON.parse(localStorage.getItem("list_data"))
       : [];
   const [state, dispatch] = useReducer(reducer, initialState);
